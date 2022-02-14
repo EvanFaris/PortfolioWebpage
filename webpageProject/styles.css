@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #242526;
+    font-family: Verdana, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.navBar{
+    display:flex;
+    background-color:#242526;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+}
+
+.navBar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a.active{
+    background-color: rgb(4, 65, 39);
+}
+.navBar a:hover {
+    background-color: #406644;
+}
